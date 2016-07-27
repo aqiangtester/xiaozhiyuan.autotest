@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="46" passed="46">
+  <reporter-output>
+  </reporter-output>
+  <suite name="xiaozhiyun.usersystem.autotest" duration-ms="16462" started-at="2016-07-21T08:53:04Z" finished-at="2016-07-21T08:53:20Z">
+    <groups>
+      <group name="functest">
+        <method signature="TestRegister.testDataSource(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testDataSource" class="cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister"/>
+        <method signature="TestRegister.testSourceSystem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testSourceSystem" class="cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister"/>
+      </group> <!-- functest -->
+      <group name="checkintest">
+        <method signature="TestRegister.testRegisterSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRegisterSuccess" class="cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister"/>
+        <method signature="TestLogin.testLoginSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginSuccess" class="cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin"/>
+      </group> <!-- checkintest -->
+    </groups>
+    <test name="TestRegister" duration-ms="9773" started-at="2016-07-21T08:53:04Z" finished-at="2016-07-21T08:53:14Z">
+      <class name="cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister">
+        <test-method status="PASS" signature="testDataSource(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testDataSource" duration-ms="190" started-at="2016-07-21T16:53:04Z" data-provider="dataSourceData" finished-at="2016-07-21T16:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18520820075]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tiantony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tian123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tian123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataSource -->
+        <test-method status="PASS" signature="testSourceSystem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testSourceSystem" duration-ms="42" started-at="2016-07-21T16:53:04Z" data-provider="sourceSystemData" finished-at="2016-07-21T16:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18520820075]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tiantony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tian123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tian123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSourceSystem -->
+        <test-method status="PASS" signature="testRegisterSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRegisterSuccess" duration-ms="1802" started-at="2016-07-21T16:53:04Z" data-provider="testRegisterSuccess" finished-at="2016-07-21T16:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, confirmPasswd=tian123, dataSource=1, expectRetCode=01130, mobile=18520820075, mobileModel=, mobileSysVersion=, nickName=tiantony, password=tian123, smsVerifyKey=, sourceSystem=1, verifyCode=, verifyKey=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method status="PASS" signature="testRegisterSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRegisterSuccess" duration-ms="1317" started-at="2016-07-21T16:53:06Z" data-provider="testRegisterSuccess" finished-at="2016-07-21T16:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, confirmPasswd=tian123, dataSource=1, expectRetCode=01130, mobile=18520820075, mobileModel=, mobileSysVersion=, nickName=tiantony, password=tian123, smsVerifyKey=, sourceSystem=2, verifyCode=, verifyKey=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method status="PASS" signature="testRegisterSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRegisterSuccess" duration-ms="1300" started-at="2016-07-21T16:53:07Z" data-provider="testRegisterSuccess" finished-at="2016-07-21T16:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, confirmPasswd=tian123, dataSource=1, expectRetCode=01130, mobile=18520820075, mobileModel=, mobileSysVersion=, nickName=tiantony, password=tian123, smsVerifyKey=, sourceSystem=3, verifyCode=, verifyKey=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method status="PASS" signature="testRegisterSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRegisterSuccess" duration-ms="1672" started-at="2016-07-21T16:53:09Z" data-provider="testRegisterSuccess" finished-at="2016-07-21T16:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, confirmPasswd=tian123, dataSource=2, expectRetCode=01130, mobile=18520820075, mobileModel=, mobileSysVersion=, nickName=tiantony, password=tian123, smsVerifyKey=, sourceSystem=1, verifyCode=, verifyKey=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method status="PASS" signature="testRegisterSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRegisterSuccess" duration-ms="1457" started-at="2016-07-21T16:53:10Z" data-provider="testRegisterSuccess" finished-at="2016-07-21T16:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, confirmPasswd=tian123, dataSource=3, expectRetCode=01130, mobile=18520820075, mobileModel=, mobileSysVersion=android, nickName=tiantony, password=tian123, smsVerifyKey=, sourceSystem=1, verifyCode=, verifyKey=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method status="PASS" signature="testRegisterSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRegisterSuccess" duration-ms="1491" started-at="2016-07-21T16:53:12Z" data-provider="testRegisterSuccess" finished-at="2016-07-21T16:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, confirmPasswd=tian123, dataSource=4, expectRetCode=01130, mobile=18520820075, mobileModel=, mobileSysVersion=ios, nickName=tiantony, password=tian123, smsVerifyKey=, sourceSystem=1, verifyCode=, verifyKey=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method status="PASS" signature="testRepeatRegisterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="testRepeatRegisterData" duration-ms="265" started-at="2016-07-21T16:53:13Z" data-provider="repeatRegisterData" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18520820075]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tiantony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tian123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[tian123]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01137]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeatRegisterData -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister -->
+    </test> <!-- TestRegister -->
+    <test name="TestGetAccountStatus" duration-ms="742" started-at="2016-07-21T08:53:14Z" finished-at="2016-07-21T08:53:14Z">
+      <class name="cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-07-21T16:53:14Z" finished-at="2016-07-21T16:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Inactivated(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="Inactivated" duration-ms="63" started-at="2016-07-21T16:53:14Z" data-provider="Inactivated" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[94ab2ec1ac3c0d159ed8b3297a99b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c933f9cb96273829d524dcacd91201]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inactivated -->
+        <test-method status="PASS" signature="Activated(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="Activated" duration-ms="87" started-at="2016-07-21T16:53:14Z" data-provider="Activated" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01261]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Activated -->
+        <test-method status="PASS" signature="testGetAccountStatusFail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="testGetAccountStatusFail" duration-ms="86" started-at="2016-07-21T16:53:14Z" data-provider="fail" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rertrdgf8443]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01262]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAccountStatusFail -->
+        <test-method status="PASS" signature="testGetAccountStatusFail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="testGetAccountStatusFail" duration-ms="53" started-at="2016-07-21T16:53:14Z" data-provider="fail" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5467rthftghfgh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAccountStatusFail -->
+        <test-method status="PASS" signature="testGetAccountStatusFail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="testGetAccountStatusFail" duration-ms="49" started-at="2016-07-21T16:53:14Z" data-provider="fail" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsgdrgr54654654]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAccountStatusFail -->
+        <test-method status="PASS" signature="testGetAccountStatusFail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="testGetAccountStatusFail" duration-ms="52" started-at="2016-07-21T16:53:14Z" data-provider="fail" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAccountStatusFail -->
+        <test-method status="PASS" signature="testGetAccountStatusFail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="testGetAccountStatusFail" duration-ms="44" started-at="2016-07-21T16:53:14Z" data-provider="fail" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAccountStatusFail -->
+        <test-method status="PASS" signature="testGetAccountStatusFail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="testGetAccountStatusFail" duration-ms="43" started-at="2016-07-21T16:53:14Z" data-provider="fail" finished-at="2016-07-21T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAccountStatusFail -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus@1f493111]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-21T16:53:14Z" finished-at="2016-07-21T16:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus -->
+    </test> <!-- TestGetAccountStatus -->
+    <test name="TestGetSmsVerifyCode" duration-ms="959" started-at="2016-07-21T08:53:14Z" finished-at="2016-07-21T08:53:15Z">
+      <class name="cn.com.digiwin.justsharecloud.testCases.getSmsVerifyCode.cases.TestGetSmsVerifyCode">
+        <test-method status="PASS" signature="all(java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getSmsVerifyCode.cases.TestGetSmsVerifyCode@38a663a4]" name="all" duration-ms="770" started-at="2016-07-21T16:53:14Z" data-provider="all" finished-at="2016-07-21T16:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18520820075]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01250]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all -->
+        <test-method status="PASS" signature="all(java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getSmsVerifyCode.cases.TestGetSmsVerifyCode@38a663a4]" name="all" duration-ms="44" started-at="2016-07-21T16:53:15Z" data-provider="all" finished-at="2016-07-21T16:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all -->
+        <test-method status="PASS" signature="all(java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getSmsVerifyCode.cases.TestGetSmsVerifyCode@38a663a4]" name="all" duration-ms="145" started-at="2016-07-21T16:53:15Z" data-provider="all" finished-at="2016-07-21T16:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[185]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01254]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.getSmsVerifyCode.cases.TestGetSmsVerifyCode -->
+    </test> <!-- TestGetSmsVerifyCode -->
+    <test name="TestLogin" duration-ms="1632" started-at="2016-07-21T08:53:15Z" finished-at="2016-07-21T08:53:17Z">
+      <class name="cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-07-21T16:53:15Z" finished-at="2016-07-21T16:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testDataSource(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testDataSource" duration-ms="51" started-at="2016-07-21T16:53:15Z" data-provider="dataSourceData" finished-at="2016-07-21T16:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tonytian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tian123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataSource -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="42" started-at="2016-07-21T16:53:15Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=, dataSource=1, expectRetCode=01213, password=tian123, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="46" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=1, expectRetCode=01213, password=, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="56" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=3, expectRetCode=01131, password=tian123, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="42" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=4, expectRetCode=01131, password=tian123, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="49" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=yihj454try, dataSource=1, expectRetCode=01211, password=tian123, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="57" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=yihj454try, dataSource=2, expectRetCode=01211, password=tian123, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="49" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=yihj454try, dataSource=3, expectRetCode=01211, password=tian123, uniqueCode=android}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="43" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=yihj454try, dataSource=4, expectRetCode=01211, password=tian123, uniqueCode=ios}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="307" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=1, expectRetCode=01211, password=yihj454try, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="90" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=2, expectRetCode=01211, password=yihj454try, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="55" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=3, expectRetCode=01211, password=yihj454try, uniqueCode=android}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginFail(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginFail" duration-ms="69" started-at="2016-07-21T16:53:16Z" data-provider="testLoginFail" finished-at="2016-07-21T16:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=4, expectRetCode=01211, password=yihj454try, uniqueCode=ios}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method status="PASS" signature="testLoginSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginSuccess" duration-ms="104" started-at="2016-07-21T16:53:16Z" data-provider="testLoginSuccess" finished-at="2016-07-21T16:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=1, expectRetCode=01210, password=tian123, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="testLoginSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginSuccess" duration-ms="155" started-at="2016-07-21T16:53:17Z" data-provider="testLoginSuccess" finished-at="2016-07-21T16:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=2, expectRetCode=01210, password=tian123, uniqueCode=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="testLoginSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginSuccess" duration-ms="114" started-at="2016-07-21T16:53:17Z" data-provider="testLoginSuccess" finished-at="2016-07-21T16:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=3, expectRetCode=01210, password=tian123, uniqueCode=android }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="testLoginSuccess(java.util.Map)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="testLoginSuccess" duration-ms="108" started-at="2016-07-21T16:53:17Z" data-provider="testLoginSuccess" finished-at="2016-07-21T16:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{account=tonytian, dataSource=4, expectRetCode=01210, password=tian123, uniqueCode=ios}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin@709ecdf5]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-21T16:53:17Z" finished-at="2016-07-21T16:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin -->
+    </test> <!-- TestLogin -->
+    <test name="TestCompanyRegister" duration-ms="1983" started-at="2016-07-21T08:53:17Z" finished-at="2016-07-21T08:53:19Z">
+      <class name="cn.com.digiwin.justsharecloud.testCases.companyRegister.cases.TestCompanyRegister">
+        <test-method status="PASS" signature="testCompantRegisterSuccess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.companyRegister.cases.TestCompanyRegister@5d8409fb]" name="testCompantRegisterSuccess" duration-ms="1779" started-at="2016-07-21T16:53:17Z" data-provider="success" finished-at="2016-07-21T16:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18520820075]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CHINA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TIANYAQIANG]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1971]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01160]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompantRegisterSuccess -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.companyRegister.cases.TestCompanyRegister@5d8409fb]" name="afterMethod" is-config="true" duration-ms="106" started-at="2016-07-21T16:53:19Z" finished-at="2016-07-21T16:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.companyRegister.cases.TestCompanyRegister -->
+    </test> <!-- TestCompanyRegister -->
+    <test name="TestGetLoginStatus" duration-ms="1051" started-at="2016-07-21T08:53:19Z" finished-at="2016-07-21T08:53:20Z">
+      <class name="cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus@283a30f3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-07-21T16:53:19Z" finished-at="2016-07-21T16:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGetLoginStatusFail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus@283a30f3]" name="testGetLoginStatusFail" duration-ms="45" started-at="2016-07-21T16:53:19Z" data-provider="testGetLoginStatusFail" finished-at="2016-07-21T16:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sudfhuhf2343]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoginStatusFail -->
+        <test-method status="PASS" signature="testGetLoginStatusFail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus@283a30f3]" name="testGetLoginStatusFail" duration-ms="46" started-at="2016-07-21T16:53:19Z" data-provider="testGetLoginStatusFail" finished-at="2016-07-21T16:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34654gfdgdt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoginStatusFail -->
+        <test-method status="PASS" signature="testGetLoginStatusFail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus@283a30f3]" name="testGetLoginStatusFail" duration-ms="45" started-at="2016-07-21T16:53:19Z" data-provider="testGetLoginStatusFail" finished-at="2016-07-21T16:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoginStatusFail -->
+        <test-method status="PASS" signature="testGetLoginStatusFail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus@283a30f3]" name="testGetLoginStatusFail" duration-ms="46" started-at="2016-07-21T16:53:20Z" data-provider="testGetLoginStatusFail" finished-at="2016-07-21T16:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoginStatusFail -->
+        <test-method status="PASS" signature="testGetLoginStatusSuccess(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus@283a30f3]" name="testGetLoginStatusSuccess" duration-ms="285" started-at="2016-07-21T16:53:20Z" data-provider="testGetLoginStatusSuccess" finished-at="2016-07-21T16:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1d6216db29cbc9572e2c1166ee3b7050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01220]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoginStatusSuccess -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus@283a30f3]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-21T16:53:20Z" finished-at="2016-07-21T16:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus -->
+    </test> <!-- TestGetLoginStatus -->
+    <test name="TestGetTokenList" duration-ms="252" started-at="2016-07-21T08:53:20Z" finished-at="2016-07-21T08:53:20Z">
+      <class name="cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="beforeSuite" is-config="true" duration-ms="2790" started-at="2016-07-21T16:53:01Z" finished-at="2016-07-21T16:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister@3e4aba6a]" name="afterSuite" is-config="true" duration-ms="1831" started-at="2016-07-21T16:53:20Z" finished-at="2016-07-21T16:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister -->
+      <class name="cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList@6f644141]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-07-21T16:53:20Z" finished-at="2016-07-21T16:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGetTokenListFail(java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList@6f644141]" name="testGetTokenListFail" duration-ms="48" started-at="2016-07-21T16:53:20Z" data-provider="testGetTokenListFail" finished-at="2016-07-21T16:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTokenListFail -->
+        <test-method status="PASS" signature="testGetTokenListFail(java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList@6f644141]" name="testGetTokenListFail" duration-ms="43" started-at="2016-07-21T16:53:20Z" data-provider="testGetTokenListFail" finished-at="2016-07-21T16:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfgh345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTokenListFail -->
+        <test-method status="PASS" signature="testGetTokenListSuccess(java.lang.String, java.lang.String)[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList@6f644141]" name="testGetTokenListSuccess" duration-ms="42" started-at="2016-07-21T16:53:20Z" data-provider="testGetTokenListSuccess" finished-at="2016-07-21T16:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2032cd8a57fc8f0c26adf12d91cc94a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01230]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTokenListSuccess -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList@6f644141]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-07-21T16:53:20Z" finished-at="2016-07-21T16:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList -->
+    </test> <!-- TestGetTokenList -->
+  </suite> <!-- xiaozhiyun.usersystem.autotest -->
+</testng-results>

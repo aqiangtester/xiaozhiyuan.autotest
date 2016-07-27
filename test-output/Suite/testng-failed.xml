@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="checkintest"/>
+        <include name="functest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="register.TestRegister">
+        <methods>
+          <include name="testRegisterFail" invocation-numbers="5"/>
+          <include name="testRegisterSuccess" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- register.TestRegister -->
+      <class name="login.TestLogin">
+        <methods>
+          <include name="testLoginSuccess" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- login.TestLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

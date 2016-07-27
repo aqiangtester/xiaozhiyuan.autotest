@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [xiaozhiyun.usersystem.interface_autotest]">
+  <test name="usersystem.interface_autotest(failed)">
+    <classes>
+      <class name="cn.com.digiwin.justsharecloud.testCases.companyRegister.cases.TestCompanyRegister">
+        <methods>
+          <include name="testCompantRegisterSuccess" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.companyRegister.cases.TestCompanyRegister -->
+      <class name="cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin">
+        <methods>
+          <include name="afterTest"/>
+          <include name="testLoginFail" invocation-numbers="4 8"/>
+          <include name="beforeTest"/>
+          <include name="testLoginSuccess" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin -->
+      <class name="cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister -->
+      <class name="cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="testGetLoginStatusSuccess" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus -->
+      <class name="cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus -->
+      <class name="cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList -->
+    </classes>
+  </test> <!-- usersystem.interface_autotest(failed) -->
+</suite> <!-- Failed suite [xiaozhiyun.usersystem.interface_autotest] -->

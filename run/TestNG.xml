@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xiaozhiyun.usersystem.autotest" parallel="false">
+	<test verbose="3" preserve-order="true" name="TestRegister">
+		<!-- <groups> <run> <include name="checkintest" /> <include name="functest" 
+			/> </run> </groups> -->
+		<classes>
+			<class
+				name="cn.com.digiwin.justsharecloud.testCases.register.cases.TestRegister" />
+		</classes>
+	</test>
+	<!-- <class name="cn.com.digiwin.justsharecloud.testCases.resendPassword.cases.TestResendPassword" 
+		/> -->
+	<test name="TestGetAccountStatus">
+		<classes>
+			<class
+				name="cn.com.digiwin.justsharecloud.testCases.getAccountStatus.cases.TestGetAccountStatus" />
+		</classes>
+	</test>
+	<test name="TestGetSmsVerifyCode">
+		<classes>
+			<class
+				name="cn.com.digiwin.justsharecloud.testCases.getSmsVerifyCode.cases.TestGetSmsVerifyCode" />
+		</classes>
+	</test>
+	<test name="TestLogin">
+		<classes>
+			<class
+				name="cn.com.digiwin.justsharecloud.testCases.login.cases.TestLogin" />
+		</classes>
+	</test>
+	<test name="TestCompanyRegister">
+		<classes>
+			<class
+				name="cn.com.digiwin.justsharecloud.testCases.companyRegister.cases.TestCompanyRegister" />
+		</classes>
+	</test>
+	<test name="TestGetLoginStatus">
+		<classes>
+			<class
+				name="cn.com.digiwin.justsharecloud.testCases.getLoginStatus.cases.TestGetLoginStatus" />
+		</classes>
+	</test>
+	<test name="TestGetTokenList">
+		<classes>
+			<class
+				name="cn.com.digiwin.justsharecloud.testCases.getTokenList.cases.TestGetTokenList" />
+		</classes>
+	</test>
+</suite>
