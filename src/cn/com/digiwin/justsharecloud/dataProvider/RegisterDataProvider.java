@@ -1,8 +1,6 @@
 package cn.com.digiwin.justsharecloud.dataProvider;
 
-import java.util.Iterator;
 import org.testng.annotations.DataProvider;
-import cn.com.digiwin.justsharecloud.commonfunctions.ExcelDataProvider;
 
 public class RegisterDataProvider {
 
@@ -11,8 +9,15 @@ public class RegisterDataProvider {
 	 * @description 注册成功的测试数据
 	 */
 	@DataProvider(name = "testRegisterSuccess")
-	public static Iterator<Object[]> data() {
-		return (Iterator<Object[]>) new ExcelDataProvider("testRegisterSuccess", "testRegisterSuccess");
+	public static Object[][] data() {
+		return new Object[][]{
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 1 , 1 , "tian123" , "" , "" , "" , "01130"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 2 , 1 , "tian123" , "" , "" , "" , "01130"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 3 , 1 , "tian123" , "" , "" , "" , "01130"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 1 , 2 , "tian123" , "" , "" , "" , "01130"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 1 , 3 , "tian123" , "" , "android" , "" , "01130"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 1 , 4 , "tian123" , "" , "ios" , "" , "01130"}
+		};
 	}
 
 	/**
@@ -21,8 +26,15 @@ public class RegisterDataProvider {
 	 *              其中未测试dataSource和sourceSystem的必填性
 	 */
 	@DataProvider(name = "testRegisterFail")
-	public static Iterator<Object[]> failData() {
-		return (Iterator<Object[]>) new ExcelDataProvider("testRegisterFail", "testRegisterFail");
+	public static Object[][] failData() {
+		return new Object[][]{
+			{"" , "tiantony" , "" , "tian123" , "tonytian" , "" , 1 , 1 , "tian123" , "" , "" , "" , "01131"},
+			{"18520820075" , "" , "" , "tian123" , "tonytian" , "" , 1 , 1 , "tian123" , "" , "" , "" , "01131"},
+			{"18520820075" , "tiantony" , "" , "" , "tonytian" , "" , 1 , 1 , "tian123" , "" , "" , "" , "01131"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "" , "" , 1 , 1 , "tian123" , "" , "" , "" , "01131"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 1 , 1 , "" , "" , "" , "" , "01131"},
+			{"18520820075" , "tiantony" , "" , "tian123" , "tonytian" , "" , 1 , 1 , "tian321" , "" , "" , "" , "01134"}
+		};
 	}
 
 	/**

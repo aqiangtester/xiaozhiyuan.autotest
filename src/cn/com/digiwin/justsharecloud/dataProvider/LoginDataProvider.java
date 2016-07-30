@@ -11,8 +11,13 @@ public class LoginDataProvider {
 	 * @description 登录成功的测试数据
 	 */
 	@DataProvider(name = "testLoginSuccess")
-	public static Iterator<Object[]> successData() {
-		return (Iterator<Object[]>) new ExcelDataProvider("testLoginSuccess", "testLoginSuccess");
+	public static Object[][] successData() {
+		return new Object[][]{
+			{"tonytian" , "tian123" , 1 , "" , "01210"},
+			{"tonytian" , "tian123" , 2 , "" , "01210"},
+			{"tonytian" , "tian123" , 3 , "android" , "01210"},
+			{"tonytian" , "tian123" , 4 , "ios" , "01210"}
+		};
 	}
 
 	/**
@@ -20,8 +25,21 @@ public class LoginDataProvider {
 	 * @description 登录失败的测试数据
 	 */
 	@DataProvider(name = "testLoginFail")
-	public static Iterator<Object[]> failData() {
-		return (Iterator<Object[]>) new ExcelDataProvider("testLoginFail", "testLoginFail");
+	public static Object[][] failData() {
+		return new Object[][]{
+			{"" , "tian123" , 1 , "" , "01213"},
+			{"tonytian" , "" , 1 , "" , "01213"},
+			{"tonytian" , "tian123" , 3 , "" , "01131"},
+			{"tonytian" , "tian123" , 4 , "" , "01131"},
+			{"yihj454try" , "tian123" , 1 , "" , "01211"},
+			{"yihj454try" , "tian123" , 2 , "" , "01211"},
+			{"yihj454try" , "tian123" , 3 , "android" , "01211"},
+			{"yihj454try" , "tian123" , 3 , "ios" , "01211"},
+			{"tonytian" , "yihj454try" , 1 , "" , "01211"},
+			{"tonytian" , "yihj454try" , 2 , "" , "01211"},
+			{"tonytian" , "yihj454try" , 3 , "android" , "01211"},
+			{"tonytian" , "yihj454try" , 4 , "ios" , "01211"}
+		};
 	}
 	
 	
