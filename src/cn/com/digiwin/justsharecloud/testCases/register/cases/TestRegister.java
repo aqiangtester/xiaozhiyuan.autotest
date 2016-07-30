@@ -48,16 +48,15 @@ public class TestRegister {
 	 */
 	@Test(dataProvider = "testRegisterSuccess", dataProviderClass = RegisterDataProvider.class, priority = 1, groups = {
 			"checkintest" }, enabled = true)
-	public void testRegisterSuccess(Map<String, String> data) {
+	public void testRegisterSuccess(String mobile, String nickName, String smsVerifyKey, String password,
+			String account, String verifyKey, int sourceSystem, int dataSource, String confirmPasswd, String verifyCode,
+			String mobileSysVersion, String mobileModel, String expectRetCode) {
 
 		// 读取Excel表测试数据
-		ReadExcel.prmap(data);
+		// ReadExcel.prmap(data);
 
-		String requestParams = RequestParams.requestParams(data.get("mobile"), data.get("nickName"),
-				data.get("smsVerifyKey"), data.get("password"), data.get("account"), data.get("verifyKey"),
-				ParamsParseInt.paramsParseInt(data.get("sourceSystem")),
-				ParamsParseInt.paramsParseInt(data.get("dataSource")), data.get("confirmPasswd"),
-				data.get("verifyCode"), data.get("mobileSysVersion"), data.get("mobileModel"));
+		String requestParams = RequestParams.requestParams(mobile, nickName, smsVerifyKey, password, account, verifyKey,
+				sourceSystem, dataSource, confirmPasswd, verifyCode, mobileSysVersion, mobileModel);
 		logger.info(requestParams);
 
 		// 发送请求,获得响应数据
@@ -73,8 +72,8 @@ public class TestRegister {
 		logger.info("所有返回参数不为空");
 
 		// 断言retCode的值为01130
-		Assert.assertEquals(jpb.getRetCode(), data.get("expectRetCode"));
-		logger.info("测试用例: " + data.get("测试用例") + " , 通过");
+		Assert.assertEquals(jpb.getRetCode(), expectRetCode);
+		logger.info("测试用例通过");
 
 		// 删除t_authentication表内的数据
 		String sql_authentication = "delete from t_authentication where member_id=" + jpb.getMemberId();
@@ -85,8 +84,8 @@ public class TestRegister {
 		JDBCMySQL.delete(sql_member);
 
 		// 删除redis内该账号的数据
-		RedisDelete.redisDelete(data.get("account"));
-		RedisDelete.redisDelete(data.get("mobile"));
+		RedisDelete.redisDelete(account);
+		RedisDelete.redisDelete(mobile);
 		System.out.println("");
 	}
 
@@ -99,15 +98,15 @@ public class TestRegister {
 	 */
 	@Test(dataProvider = "testRegisterFail", dataProviderClass = RegisterDataProvider.class, groups = {
 			"functest" }, enabled = false)
-	public void testRegisterFail(Map<String, String> data) {
-		// 读取Excel表测试数据
-		ReadExcel.prmap(data);
+	public void testRegisterFail(String mobile, String nickName, String smsVerifyKey, String password, String account,
+			String verifyKey, int sourceSystem, int dataSource, String confirmPasswd, String verifyCode,
+			String mobileSysVersion, String mobileModel, String expectRetCode) {
 
-		String requestParams = RequestParams.requestParams(data.get("mobile"), data.get("nickName"),
-				data.get("smsVerifyKey"), data.get("password"), data.get("account"), data.get("verifyKey"),
-				ParamsParseInt.paramsParseInt(data.get("sourceSystem")),
-				ParamsParseInt.paramsParseInt(data.get("dataSource")), data.get("confirmPasswd"),
-				data.get("verifyCode"), data.get("mobileSysVersion"), data.get("mobileModel"));
+		// 读取Excel表测试数据
+		// ReadExcel.prmap(data);
+
+		String requestParams = RequestParams.requestParams(mobile, nickName, smsVerifyKey, password, account, verifyKey,
+				sourceSystem, dataSource, confirmPasswd, verifyCode, mobileSysVersion, mobileModel);
 		logger.info(requestParams);
 
 		// 发送请求,获得响应数据
@@ -120,7 +119,7 @@ public class TestRegister {
 		Assert.assertNotNull(jpb.getRetCode());
 
 		// 断言retCode
-		Assert.assertEquals(jpb.getRetCode(), data.get("expectRetCode"));
+		Assert.assertEquals(jpb.getRetCode(), expectRetCode);
 	}
 
 	/**
@@ -265,10 +264,10 @@ public class TestRegister {
 
 	@AfterSuite
 	public void afterSuite() {
-		
+
 		// 测试Suite执行完之后 , 清除数据库内该账号的信息
 		msc.mySqlDelete();
-                 
+
 		// 测试Suite执行完之后 , 清除redis内该账号的信息
 		rdc.redisClean();
 	}
