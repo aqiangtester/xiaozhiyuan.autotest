@@ -54,7 +54,12 @@ public class LoginDataProvider {
 		};
 	}
 	
-	
+	@DataProvider(name = "needVerifyData")
+	public static Object[][] needVerifyData(){
+		return new Object[][]{
+			{"tonytia" , "tian123" ,1 , "01211","01213" }
+		};
+	}
 	
 	
 	@DataProvider(name = "pressureTestData")

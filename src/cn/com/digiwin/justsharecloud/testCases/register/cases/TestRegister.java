@@ -1,6 +1,5 @@
 package cn.com.digiwin.justsharecloud.testCases.register.cases;
 
-import java.util.Map;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
@@ -8,8 +7,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import cn.com.digiwin.justsharecloud.commonfunctions.HttpRequestMethod;
 import cn.com.digiwin.justsharecloud.commonfunctions.JDBCMySQL;
-import cn.com.digiwin.justsharecloud.commonfunctions.ParamsParseInt;
-import cn.com.digiwin.justsharecloud.commonfunctions.ReadExcel;
 import cn.com.digiwin.justsharecloud.commonfunctions.RedisDelete;
 import cn.com.digiwin.justsharecloud.constants.Constants;
 import cn.com.digiwin.justsharecloud.dataProvider.RegisterDataProvider;
@@ -266,9 +263,9 @@ public class TestRegister {
 	public void afterSuite() {
 
 		// 测试Suite执行完之后 , 清除数据库内该账号的信息
-		msc.mySqlDelete();
+		//msc.mySqlDelete();
 
 		// 测试Suite执行完之后 , 清除redis内该账号的信息
-		rdc.redisClean();
+		//rdc.redisClean();
 	}
 }
