@@ -262,10 +262,10 @@ public class TestRegister {
 	@AfterSuite
 	public void afterSuite() {
 
-		// 测试Suite执行完之后 , 清除数据库内该账号的信息
-		//msc.mySqlDelete();
+//		 测试Suite执行完之后 , 清除数据库内该账号的信息
+		msc.mySqlDelete();
 
-		// 测试Suite执行完之后 , 清除redis内该账号的信息
-		//rdc.redisClean();
+//		 测试Suite执行完之后 , 清除redis内该账号的信息
+		rdc.redisClean();
 	}
 }
